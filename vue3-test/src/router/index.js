@@ -4,6 +4,12 @@ import lifeCycle from '../views/LifeCycle.vue'
 import vonce from '../views/VOnceView.vue'
 import Computed from '../views/ComputedView.vue'
 import GetterSetter from '../views/GetterSetter.vue'
+import VOnEvent from '../views/VOnEvent.vue'
+import PropsView from '../views/PropsView.vue'
+import EmitEvent from '../views/EmitEvent.vue'
+import SlotView from '../views/SlotView.vue'
+import ProvideInject from '../views/ProvideInject.vue'
+import RefsView from '../views/RefsView.vue'
 
 
 const routes = [
@@ -32,7 +38,36 @@ const routes = [
     name: 'GetterSetter',
     component: GetterSetter
   },
-
+  {
+    path: '/vOnEvent',
+    name: 'vOnEvent',
+    component: VOnEvent
+  },
+  {
+    path: '/PropsView',
+    name: 'PropsView',
+    component: PropsView
+  },
+  {
+    path: '/EmitEvent',
+    name: 'EmitEvent',
+    component: EmitEvent
+  },
+  {
+    path: '/SlotView',
+    name: 'SlotView',
+    component: SlotView
+  },
+  {
+    path: '/ProvideInject',
+    name: 'ProvideInject',
+    component: ProvideInject
+  },
+  {
+    path: '/RefsView',
+    name: 'RefsView',
+    component: RefsView
+  },
 ]
 
 const router = createRouter({

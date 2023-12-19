@@ -12,7 +12,8 @@ export default {
       validator: function (value) {
         return value.length <= 10;
       }
-    }
+    },
   }
 };
 </script>
+
